@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\3c056a5a4af4b0a5597187907b30b83a28cdb2c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0631841aef9ca19d2339a057e6d84d229db96aab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\309147e04c42b30f791729b01bf97867b22947ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67162ab0cf3633bfa7ae0e942473bee2bd76ce38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\26f8487f570c41a0390a8384b34f12887975b137\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_085efc387a3f198bee3ead6dee1d505e6cbc5953\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_eb027d296d7be60e72a2056ae6c54f25c70e6d8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\8dc15e651535186143dd4df50d44312d4a37bb0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df261d5c08767dcee8f3bfd7e172646d2cb9aea3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\af67a6d348da61c0fd8018b48229828a91c3ea31\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebae8f5ee10d76db3c3295d3ea0893bb11ddd460\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\edb6b06eb333c9189cfda8123d135d5e5cec5635\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e05400e5c99d2f0b683fdbd9b7cb0e336ebf555\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\2c68d04846bdabd25cf2a4f9060a4d126e1d1428\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f55d8ebae7ce6d6a4c3bb6056a1092306351dfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\b83b856b36f904d3a4c9d47442843b689674d910\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9738de134efd8fc5522bd36e00bb0bb438db9dad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\c73a13ebd1f094a40d9437e6ffedab525f16511f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_abe279bfae6f37763ba7c0a0582d95abc73dc192\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\593dd1bc699a06326b4013d52694108269235d89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_505b3f33fe329dbc06e652478aa02a318c58ee47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\a66a95bbc711e4a927af03483acea7cba095a3c1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53b07613506ef826e23c65d434457b621ff24964\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.1_0afe35a409a045ea829516f8becd4f122290dfef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\9297b97cf672761732760bd232b61f2dd0d46661\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4945ed87147cedf0d4713eab7540cede2c920710\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_86d2ca7f2744ba3cf0c5abaf9df3e13c6e2a9cb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\de497b5422dcabe82cfd61c35a60de81179eca22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_934c46893ca110d744a3212210269d6b89059498\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\4dc57712014b80ecd1c271c2b91f8c272cb9983f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_849aa17931f8b4688346d49e77fb59500f875192\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\bae9ee53b5d077ad1476276bb90fcb5efa368eec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_db1bd0ca94e4b29831632012eea47e7667ca6a79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\54a2a9eaaeffa6bf2295d342d7784e85c2a18b22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e1e332eca2054e26d776af00f58a7c3a0ceee13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\e965fa10c8c271e4f5e80c063b919df123cc4768\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_154a4024c4a82aab725acaee77a50c7428ccfd8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\f013f7f67bce821031dd6793f8a199fca2938647\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25f96cf59f8725ac41fd160e39fead90cf769317\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c73137c4432130a258296a62e6242adbcfc0bdb">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a8f97ccd72e836b2697d7d3ce569e85c596d1038\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\4b242ee540d96c005919066a19aadae97e82f259\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb9c8bfd1f9636d9b72d85f6b0b30527f46d0c7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\49fe840abc39c2ccee86c979c2f0136432337d47\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f60f4554bb21b1d0a4c0eaefd3b439e9719abe12\classes.dex" />
+    </item>
+
+</items>
