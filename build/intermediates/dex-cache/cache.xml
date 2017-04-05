@@ -3,12 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\3c056a5a4af4b0a5597187907b30b83a28cdb2c8\output\jars\classes.jar"
+        jar="C:\Users\adam\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0631841aef9ca19d2339a057e6d84d229db96aab\classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_50f703556773b13a6bf510df5349b1903be1d7f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\085e10f61e11478b02a34e599f01c08f53c7468b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a97574722d39fd002194ace50f710247de503b2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,12 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\26f8487f570c41a0390a8384b34f12887975b137\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\0f1ed323533c497801188cbdc22ebd9d6012c491\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7113302c965566b66df46c6ca75ea301576114a5">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_085efc387a3f198bee3ead6dee1d505e6cbc5953\classes.dex" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ad652021152915b68715fc606291cf72bf7142b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,15 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\8dc15e651535186143dd4df50d44312d4a37bb0d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df261d5c08767dcee8f3bfd7e172646d2cb9aea3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\adam\.android\build-cache\af67a6d348da61c0fd8018b48229828a91c3ea31\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -57,39 +57,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\edb6b06eb333c9189cfda8123d135d5e5cec5635\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\7d4c1a472304ed067965ef707c88997c57f21915\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e05400e5c99d2f0b683fdbd9b7cb0e336ebf555\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\2c68d04846bdabd25cf2a4f9060a4d126e1d1428\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f55d8ebae7ce6d6a4c3bb6056a1092306351dfa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\b83b856b36f904d3a4c9d47442843b689674d910\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9738de134efd8fc5522bd36e00bb0bb438db9dad\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\c73a13ebd1f094a40d9437e6ffedab525f16511f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_abe279bfae6f37763ba7c0a0582d95abc73dc192\classes.dex" />
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82976c11c8440ce382a5e50045f8f3f9be848c0c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,6 +75,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\73725b79aeeb1e767aa4994499a4f3c07de66c0a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3932faef385c6df83e36d0ecfa5eae5511dd777f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\adam\.android\build-cache\a66a95bbc711e4a927af03483acea7cba095a3c1\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -111,12 +93,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jar="C:\Users\adam\.android\build-cache\bae859017146ab6f4e4bb5a882988a8a6752fc2c\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.1_0afe35a409a045ea829516f8becd4f122290dfef\classes.dex" />
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bea356af8d1005a600823479f685cd5737fd9183\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,21 +120,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\de497b5422dcabe82cfd61c35a60de81179eca22\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\b37c287f703e642a8baeb5414a5f6354f4930ca2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_934c46893ca110d744a3212210269d6b89059498\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\4dc57712014b80ecd1c271c2b91f8c272cb9983f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_849aa17931f8b4688346d49e77fb59500f875192\classes.dex" />
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8061788abc4d118b959fd0e6fedd7449f4c9bdf2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,12 +138,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\54a2a9eaaeffa6bf2295d342d7784e85c2a18b22\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\0e5192df81a9018c6494aecf22d27c714c41f17c\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e51c2f662bb72419632af5192553c37e33890a99">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e1e332eca2054e26d776af00f58a7c3a0ceee13\classes.dex" />
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_99aee1cc6e9110dc68c869a794cf0977f288e32c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,12 +156,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\f013f7f67bce821031dd6793f8a199fca2938647\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\5a388aac604393f81b98a87b5487d88e21a82b68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3f358801c8a5c51ac697a012a95f0c7adfc2111\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\2f7b2fde4c960df9343d3fb38856237473a049b4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25f96cf59f8725ac41fd160e39fead90cf769317\classes.dex" />
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7ec5f2aeb29ed5fbdc317a7323345858403be20\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -196,26 +178,53 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6c73137c4432130a258296a62e6242adbcfc0bdb">
+        sha1="ce75ea18278ce260708d0cb34c8135c72a1a45ed">
         <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a8f97ccd72e836b2697d7d3ce569e85c596d1038\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\4b242ee540d96c005919066a19aadae97e82f259\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\157e5540ef74bd441f353d5f41637fe33146ddff\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb9c8bfd1f9636d9b72d85f6b0b30527f46d0c7e\classes.dex" />
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15751b0fc65f360d5f2a0d010cdcbc06c93974ed\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\adam\.android\build-cache\49fe840abc39c2ccee86c979c2f0136432337d47\output\jars\classes.jar"
+        jar="C:\Users\adam\.android\build-cache\2ab88c325e75723123c678c797213417b608c028\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f60f4554bb21b1d0a4c0eaefd3b439e9719abe12\classes.dex" />
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b710a9a0fc5126e854b422242c74160ff5cc54a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\9ee5dd8250f816625aa4f9236e7e68ae56859dfd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e259d06121e4838e533e441f6a761bd5338a333\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\03e2405c3813a1fa519b933cc24f25bd9a6ad494\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5991e8b8865207d63526351cf1be8544b89150ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adam\.android\build-cache\71c3d40671875ef6cd9369af750e2eba0f002aed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f1c7dfff390b0091f0b2ffb4d664b3d0e3ffc45\classes.dex" />
     </item>
 
 </items>
