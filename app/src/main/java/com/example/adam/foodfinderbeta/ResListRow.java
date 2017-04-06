@@ -11,6 +11,7 @@ import java.util.ArrayList;
 
 public class ResListRow {
 
+   // public String id;
     public String resName;
     public String resAddress;
 
@@ -35,6 +36,13 @@ public class ResListRow {
     public void setName(String name) {
         resName = name;
     }
+    /*public String getId(){
+        return id;
+    }*/
+    /*public void setId(String i){
+        id = i;
+    }*/
+
     @Override
     public String toString() {
         return resName + "\n" + resAddress;
@@ -57,6 +65,7 @@ public class ResListRow {
         ResListRow r = new ResListRow();
 
         try {
+           // r.setId(obj.getString("id"));
             r.setName(obj.getString("name"));
             r.setAddress(obj.getString("address"));
         } catch (JSONException e){

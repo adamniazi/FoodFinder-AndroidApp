@@ -19,12 +19,6 @@ public class LoggedIn extends AppCompatActivity {
     TextView number;
     String url;
 
-    public static final String LOGGED_PROFILE_EMAIL = "com.foodfinder.profileEmail";
-    public static final String LOGGED_PROFILE_FNAME = "com.foodfinder.profileFName";
-    public static final String LOGGED_PROFILE_LNAME = "com.foodfinder.profileLName";
-    public static final String LOGGED_PROFILE_NUMBER = "com.foodfinder.profilePhone";
-    public static final String LOGGED_IN_URL_INPUT = "com.foodfinder.urlInput";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,29 +29,20 @@ public class LoggedIn extends AppCompatActivity {
         email = (TextView) findViewById(R.id.emailLoggedIn);
         number = (TextView) findViewById(R.id.numLoggedIn);
 
-        Intent intent = getIntent();
-
-        fName.setText(intent.getStringExtra(MainActivity.PROFILE_FNAME));
-        lName.setText(intent.getStringExtra(MainActivity.PROFILE_LNAME));
-        email.setText(intent.getStringExtra(MainActivity.PROFILE_EMAIL));
-        number.setText(intent.getStringExtra(MainActivity.PROFILE_NUMBER));
-        url = intent.getStringExtra(MainActivity.URL_INPUT);
+        fName.setText(User.getuInstance(this).getfName());
+        lName.setText(User.getuInstance(this).getlName());
+        email.setText(User.getuInstance(this).getEmail());
+        number.setText(User.getuInstance(this).getNumber());
+        url = User.getuInstance(this).getUrl();
     }
 
     public void EditProfile(View view){
         Intent editProfile = new Intent(this, EditProfile.class);
-        editProfile.putExtra(LOGGED_PROFILE_EMAIL, email.getText());
-        editProfile.putExtra(LOGGED_PROFILE_FNAME, fName.getText());
-        editProfile.putExtra(LOGGED_PROFILE_LNAME, lName.getText());
-        editProfile.putExtra(LOGGED_PROFILE_NUMBER, number.getText());
-        editProfile.putExtra(LOGGED_IN_URL_INPUT, url);
         startActivity(editProfile);
     }
 
     public void getRestaurants(View view){
         Intent resList = new Intent(this, RestaurantList.class);
-        resList.putExtra(LOGGED_PROFILE_EMAIL, email.getText());
-        resList.putExtra(LOGGED_IN_URL_INPUT, url);
         startActivity(resList);
     }
 }

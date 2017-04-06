@@ -1,14 +1,12 @@
 package com.example.adam.foodfinderbeta;
 
-import android.content.Context;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -16,28 +14,18 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String text;
     Button register;
     Button login;
     EditText emailLogin;
     EditText urlInput;
     RequestQueue queue;
-
-    public static final String PROFILE_EMAIL = "com.foodfinder.profileEmail";
-    public static final String PROFILE_FNAME = "com.foodfinder.profileFName";
-    public static final String PROFILE_LNAME = "com.foodfinder.profileLName";
-    public static final String PROFILE_NUMBER = "com.foodfinder.profilePhone";
-    public static final String URL_INPUT = "com.foodfinder.url";
-
-    public static final String EXTRA_MESSAGE = "com.foodfinder.MESSAGE";
+    User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,11 +88,12 @@ public class MainActivity extends AppCompatActivity {
     public void loginSuccess(JSONObject obj){
         Intent loggedIn = new Intent(this, LoggedIn.class);
         try{
-            loggedIn.putExtra(PROFILE_EMAIL, obj.get("email").toString());
-            loggedIn.putExtra(PROFILE_FNAME, obj.get("firstName").toString());
-            loggedIn.putExtra(PROFILE_LNAME, obj.get("lastName").toString());
-            loggedIn.putExtra(PROFILE_NUMBER, obj.get("phone").toString());
-            loggedIn.putExtra(URL_INPUT, urlInput.getText().toString());
+            user = User.getuInstance(this.getApplicationContext());
+            user.setEmail(obj.get("email").toString());
+            user.setfName(obj.get("firstName").toString());
+            user.setlName(obj.get("lastName").toString());
+            user.setNumber(obj.get("phone").toString());
+            user.setUrl(urlInput.getText().toString());
         } catch (JSONException e){
             Toast.makeText(getBaseContext(), "Something went wrong with incoming data", Toast.LENGTH_LONG).show();
         }

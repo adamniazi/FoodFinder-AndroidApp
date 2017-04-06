@@ -14,9 +14,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
@@ -26,13 +24,14 @@ public class Register extends AppCompatActivity {
 
     private static final String TAG = Register.class.getSimpleName();
 
-    public static final String F_NAME = "com.foodfinder.1";
-    public static final String  L_NAME = "com.foodfinder.2";
-    public static final String EMAIL = "com.foodfinder.3";
-    public static final String NUM = "com.foodfinder.4";
+    String firstN;
+    String lastN;
+    String email1;
+    String num;
     Button button;
     RequestQueue queue;
     String url;
+    User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +39,7 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
         button = (Button) findViewById(R.id.button2);
         queue = VolleyController.getInstance(this.getApplicationContext()).getRequestQueue();
-        url = "http://192.168.0.102:8080/user/";
+        //url = "http://192.168.0.102:8080/user/";
     }
 
     public void submit(View view){
@@ -49,11 +48,13 @@ public class Register extends AppCompatActivity {
         EditText lName = (EditText) findViewById(R.id.lname);
         EditText email = (EditText) findViewById(R.id.email);
         EditText number = (EditText) findViewById(R.id.number);
+        EditText urlInput = (EditText) findViewById(R.id.url);
 
-        String firstN = fName.getText().toString();
-        String lastN = lName.getText().toString();
-        String email1 = email.getText().toString();
-        String num = number.getText().toString();
+        firstN = fName.getText().toString();
+        lastN = lName.getText().toString();
+        email1 = email.getText().toString();
+        num = number.getText().toString();
+        url = urlInput.getText().toString();
 
         if (firstN.length() > 0){
             if (lastN.length() > 0){
@@ -75,7 +76,13 @@ public class Register extends AppCompatActivity {
     }
 
     public void success(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoggedIn.class);
+        user = User.getuInstance(this.getApplicationContext());
+        user.setEmail(firstN);
+        user.setfName(lastN);
+        user.setlName(email1);
+        user.setNumber(num);
+        user.setUrl(url);
         startActivity(intent);
 
     }
@@ -87,9 +94,8 @@ public class Register extends AppCompatActivity {
         params.put("lastName", lN);
         params.put("phone", pH);
 
-        String url = "http://192.168.0.102:8080/user/";
         JsonObjectRequest signUp = new JsonObjectRequest
-                (Request.Method.POST, url, new JSONObject(params), new Response.Listener<JSONObject>() {
+                (Request.Method.POST, url+"/user/", new JSONObject(params), new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         Toast.makeText(getBaseContext(), "User added", Toast.LENGTH_LONG).show();

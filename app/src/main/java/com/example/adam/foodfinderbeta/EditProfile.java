@@ -43,11 +43,11 @@ public class EditProfile extends AppCompatActivity {
         number = (EditText) findViewById(R.id.editnumber);
 
         intent = getIntent();
-        email.setText(intent.getStringExtra(LoggedIn.LOGGED_PROFILE_EMAIL));
-        firstName.setText(intent.getStringExtra(LoggedIn.LOGGED_PROFILE_FNAME));
-        lastName.setText(intent.getStringExtra(LoggedIn.LOGGED_PROFILE_LNAME));
-        number.setText(intent.getStringExtra(LoggedIn.LOGGED_PROFILE_NUMBER));
-        urlInput = intent.getStringExtra(LoggedIn.LOGGED_IN_URL_INPUT);
+        email.setText(User.getuInstance(this).getEmail());
+        firstName.setText(User.getuInstance(this).getfName());
+        lastName.setText(User.getuInstance(this).getlName());
+        number.setText(User.getuInstance(this).getNumber());
+        urlInput = User.getuInstance(this).getUrl();
     }
 
     public void update (View view){
@@ -65,7 +65,7 @@ public class EditProfile extends AppCompatActivity {
         params.put("lastName", lN);
         params.put("phone", pH);
 
-        String url = "http://"+urlInput+"/user/" + intent.getStringExtra(LoggedIn.LOGGED_PROFILE_EMAIL)+"/update";
+        String url = "http://"+urlInput+"/user/" + User.getuInstance(this).getEmail()+"/update";
         JsonObjectRequest signUp = new JsonObjectRequest
                 (Request.Method.POST, url, new JSONObject(params), new Response.Listener<JSONObject>() {
                     @Override
