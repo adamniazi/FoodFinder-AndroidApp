@@ -45,4 +45,14 @@ public class LoggedIn extends AppCompatActivity {
         Intent resList = new Intent(this, RestaurantList.class);
         startActivity(resList);
     }
+
+    public void getRecommendation(View view){
+        Intent rec = new Intent(this, Recommendation.class);
+        startActivity(rec);
+    }
+
+    public void search(View view){
+        Intent search = new Intent(this, RestaurantSearch.class);
+        startActivity(search);
+    }
 }

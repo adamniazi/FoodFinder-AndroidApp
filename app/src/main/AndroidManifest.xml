@@ -31,14 +31,21 @@
             android:name=".Register"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".LoggedIn" />
-        <activity android:name=".TastePrefProf"
-            android:parentActivityName=".LoggedIn"/>
-        <activity android:name=".EditProfile"
-            android:parentActivityName=".LoggedIn"/>
-        <activity android:name=".RestaurantList"
-            android:parentActivityName=".LoggedIn"/>
-        <activity android:name=".Restaurant"
-            android:parentActivityName=".LoggedIn"/>
+        <activity
+            android:name=".TastePrefProf"
+            android:parentActivityName=".LoggedIn" />
+        <activity
+            android:name=".EditProfile"
+            android:parentActivityName=".LoggedIn" />
+        <activity
+            android:name=".RestaurantList"
+            android:parentActivityName=".LoggedIn" />
+        <activity
+            android:name=".Restaurant"
+            android:parentActivityName=".LoggedIn" />
+        <activity android:name=".Recommendation" />
+        <activity android:name=".RestaurantSearch"
+            android:parentActivityName=".LoggedIn"></activity>
     </application>
 
 </manifest>

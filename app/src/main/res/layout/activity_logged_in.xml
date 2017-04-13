@@ -58,24 +58,12 @@
         android:id="@+id/editprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="68dp"
         android:layout_marginTop="32dp"
         android:onClick="EditProfile"
         android:text="@string/edit_profile"
-        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/getPTP"
         app:layout_constraintTop_toBottomOf="@+id/emailLoggedIn" />
-
-    <Button
-        android:id="@+id/getPTP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:text="@string/get_ptp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editprofile" />
 
     <Button
         android:id="@+id/getrecommendation"
@@ -85,6 +73,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
+        android:onClick="getRecommendation"
         android:text="@string/recommend_res"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -98,11 +87,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="47dp"
         android:onClick="getRestaurants"
         android:text="@string/restaurant_search"
         app:layout_constraintBaseline_toBaselineOf="@+id/getrecommendation"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/getPTP" />
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/ressearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:onClick="search"
+        android:text="@string/ressearch"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editprofile"
+        app:layout_constraintLeft_toRightOf="@+id/editprofile"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

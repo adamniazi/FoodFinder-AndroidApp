@@ -78,9 +78,9 @@ public class Register extends AppCompatActivity {
     public void success(){
         Intent intent = new Intent(this, LoggedIn.class);
         user = User.getuInstance(this.getApplicationContext());
-        user.setEmail(firstN);
-        user.setfName(lastN);
-        user.setlName(email1);
+        user.setEmail(email1);
+        user.setfName(firstN);
+        user.setlName(lastN);
         user.setNumber(num);
         user.setUrl(url);
         startActivity(intent);
@@ -95,7 +95,7 @@ public class Register extends AppCompatActivity {
         params.put("phone", pH);
 
         JsonObjectRequest signUp = new JsonObjectRequest
-                (Request.Method.POST, url+"/user/", new JSONObject(params), new Response.Listener<JSONObject>() {
+                (Request.Method.POST, "http://"+url+"/user/", new JSONObject(params), new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         Toast.makeText(getBaseContext(), "User added", Toast.LENGTH_LONG).show();

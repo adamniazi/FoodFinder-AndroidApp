@@ -80,7 +80,8 @@ public class Restaurant extends AppCompatActivity {
     }
 
     public void postRating(float newRating){
-        String url = "http://"+User.getuInstance(this).getUrl()+"/rating/"+User.getuInstance(this).getEmail()+"/"+intent.getStringExtra(RestaurantList.RESTAURANT_NAME);
+        String resName = intent.getStringExtra(RestaurantList.RESTAURANT_NAME).replaceAll(" ", "%20");
+        String url = "http://"+User.getuInstance(this).getUrl()+"/rating/"+User.getuInstance(this).getEmail()+"/"+resName;
         Toast.makeText(getBaseContext(), url, Toast.LENGTH_LONG).show();
         Map<String,String> params = new HashMap<String, String>();
         int r = (int) newRating;

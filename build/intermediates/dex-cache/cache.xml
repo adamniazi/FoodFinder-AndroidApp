@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3205a03b109bed59c690986588b18e0f2bd150a7">
+        sha1="a4d2a4049a67fab9f9a46db467fff5ae10a6181e">
         <dex dex="C:\Users\adam\AndroidStudioProjects\FoodFinderBeta\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a8f97ccd72e836b2697d7d3ce569e85c596d1038\classes.dex" />
     </item>
     <item

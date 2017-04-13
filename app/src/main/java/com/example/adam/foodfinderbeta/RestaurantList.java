@@ -2,6 +2,7 @@ package com.example.adam.foodfinderbeta;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -17,7 +18,7 @@ import com.android.volley.VolleyError;
 
 import java.util.ArrayList;
 
-public class RestaurantList extends Activity {
+public class RestaurantList extends AppCompatActivity {
 
     Intent resRating;
     public static final String RESTAURANT_NAME = "com.foodfinder.restaurantName";
@@ -53,7 +54,14 @@ public class RestaurantList extends Activity {
     }
 
     private void getRestaurantsList(){
-        final String url = "http://"+urlInput+"/restaurant";
+        boolean search = User.getuInstance(this).getSearch();
+        final String url;
+        if(search){
+            url = "http://"+urlInput+"/restaurant?keyword="+getIntent().getStringExtra(RestaurantSearch.RESTAURANT_SEARCH);
+        }else{
+            url = "http://"+urlInput+"/restaurant";
+        }
+        Toast.makeText(getBaseContext(), url , Toast.LENGTH_LONG).show();
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest
                 (Request.Method.GET, url, null, new Response.Listener<JSONArray>(){

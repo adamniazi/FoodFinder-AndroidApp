@@ -13,6 +13,7 @@ public class User {
     private String lName;
     private String number;
     private String url;
+    private boolean search;
 
     private User(Context context){
         uCtx = context;
@@ -63,5 +64,13 @@ public class User {
 
     public void setUrl(String u){
         url = u;
+    }
+
+    public boolean getSearch(){
+        return search;
+    }
+
+    public void setSearch(boolean b){
+        search = b;
     }
 }

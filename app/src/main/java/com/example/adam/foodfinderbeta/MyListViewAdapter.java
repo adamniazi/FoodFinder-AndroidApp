@@ -1,6 +1,5 @@
 package com.example.adam.foodfinderbeta;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MyListViewAdapter extends ArrayAdapter<ResListRow>{
 
@@ -44,7 +42,7 @@ public class MyListViewAdapter extends ArrayAdapter<ResListRow>{
         }*/
         }
         TextView name = (TextView) convertView.findViewById(R.id.resName);
-        TextView address = (TextView) convertView.findViewById(R.id.resAddress);
+        TextView address = (TextView) convertView.findViewById(R.id.resaddress);
         name.setText(res.resName);
         address.setText(res.resAddress);
         return convertView;

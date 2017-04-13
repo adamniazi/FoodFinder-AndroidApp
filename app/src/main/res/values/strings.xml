@@ -11,6 +11,10 @@
     <string name="confReg">Please Confirm the information</string>
     <string name="loggedin">Is this right?</string>
     <string name="url">Please enter URL</string>
+    <string name="recommendation">Here is your recommendation</string>
+    <string name="search">Search for a restaurant</string>
+    <string name="ressearch">Restaurant Search</string>
+
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
