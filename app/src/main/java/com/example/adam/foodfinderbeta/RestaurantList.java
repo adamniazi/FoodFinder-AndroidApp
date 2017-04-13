@@ -58,6 +58,7 @@ public class RestaurantList extends AppCompatActivity {
         final String url;
         if(search){
             url = "http://"+urlInput+"/restaurant?keyword="+getIntent().getStringExtra(RestaurantSearch.RESTAURANT_SEARCH);
+            User.getuInstance(this).setSearch(false);
         }else{
             url = "http://"+urlInput+"/restaurant";
         }
