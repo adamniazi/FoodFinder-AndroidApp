@@ -42,7 +42,7 @@ public class Restaurant extends AppCompatActivity {
     }
 
     public void setStars(){
-        String url = "http://"+User.getuInstance(this).getUrl()+"/rating/"+User.getuInstance(this).getEmail()+"/"+intent.getStringExtra(RestaurantList.RESTAURANT_NAME);
+        String url = "http://"+User.getuInstance(this).getUrl()+"/rating/"+User.getuInstance(this).getEmail()+"/"+intent.getStringExtra(RestaurantList.RESTAURANT_NAME).replaceAll(" ", "%20");
 
         JsonObjectRequest jsonObject = new JsonObjectRequest
                 (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
